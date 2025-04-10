@@ -16,7 +16,7 @@ for i in range(len(fishmen_weights)):
             if lodka[0] + lodka[1] > max_weight and lodka[1] > lodka[0]:
                 count_fishmen += 1
                 del lodka[1]
-        if (len(lodka) == 2):
+        if len(lodka) == 2:
             count_fishmen += 1
             lodka.clear()
 
