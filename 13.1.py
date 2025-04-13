@@ -10,7 +10,7 @@ matrix1 = [[0 for x in range(n)] for y in range(n)]
 
 for i in range(n):
     for j in range(n):
-        matrix1[i][j] = random.randint(0, 100)
+        matrix1[i][j] = random.random()
 
 print(matrix1)
 matrix2 = [[0 for x in range(n)] for y in range(n)]
